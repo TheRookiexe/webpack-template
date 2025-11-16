@@ -32,8 +32,5 @@ module.exports = {
       filename: 'index.html',
       favicon: './src/assets/verify.png',
     }),
-    new CopyWebpackPlugin({
-      patterns: [{ from: 'src/assets', to: 'assets' }],
-    }),
   ],
 };
